@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action = "../ModelDao/cadastrar.php" method = "POST">
+            <br>
+            <label>Nome Completo</label>
+            <input type = "text" name = "nome_completo">
+            <br>
+            <label>CPF</label>
+            <input type = "text" name = "cpf">
+            <br>
+            <label>Telefone</label>
+            <input type = "text" name = "telefone">
+            <br>
+            <label>Endereço</label>
+            <input type = "text" name = "endereco" placeholder = "Rua, Travessa, Avenida...">
+            <br>
+            <label>Número</label>
+            <input type = "text" name = "numero">
+            <br>
+            <label>Complemento</label>
+            <input type = "text" name = "comp">
+            <br>
+            <label>UF</label>
+            <input type = "text" name = "uf">
+            <br>
+            <label>CEP</label>
+            <input type = "text" name = "cep">
+            <br>
+            <label>País</label>
+            <input type = "text" name = "pais">
+            <br>
+            <label>E-mail</label>
+            <input type = "text" name = "email">
+            <br>
+            <label>Confirmação de E-mail</label>
+            <input type = "text" name = "email2">
+            <br>
+            <label>Usuário</label>/
+            <input type = "text" name = "usuario2">
+            <br>
+            <label>Tipo de Conta</label>
+            <select>
+                <option value = "2"> Pessoa Jurídica </option>
+            </select>
+            <br>
+            <label>Senha</label>
+            <input type = "text" name = "senha2">
+            <br>
+            <label>Confirmar Senha</label>
+            <input type = "text" name = "senha3">
+            <br>
+            <button type="submit" name = "sign-submit">Cadastrar</button>
+        </form>
+    </body>
+</html>
